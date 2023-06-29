@@ -1,4 +1,4 @@
-let carrito = JSON.parse(localStorage.getItem("carrito")) || carrito;
+let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 let contenedor = document.getElementById("misprods");
 
