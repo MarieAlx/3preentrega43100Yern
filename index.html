@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <!-- Bootstrap icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" /> 
+        
+        
+        <!-- CSS Styles -->
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <title>Mugs 'n More online</title>
+    
+    </head>
+    
+    <body class="container">
+        <!-- Encabezado de la página -->
+        <header>
+            <a href="index.html" class="logo">Mugs 'n More </a>
+            <img src="./images/icons8-coffee-cup.gif" alt="icon mug">
+        </header>
+
+        <!-- Contenido principal -->
+        <main>
+            <h1>Bienvenidos a mi tienda online</h1>
+            <section>
+                <h2>Productos</h2>
+                
+				<div class="articulos" id="misprods">
+					<!-- Agregamos productos dinámicamente con JavaScript -->
+				</div>
+					
+			</section>
+					
+				
+                
+            
+
+            <section>
+                <h2>Carrito</h2>
+                <div class="carrito"></div>
+                <table class="table table-striped table-spacing">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+							<th>Descripción</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablabody"> 
+                        <!-- aqui tabla carrito -->
+                    </tbody>
+                </table>
+                <h4 id="total">Total a pagar $:</h4>
+            </div>
+            <button id="finalizar" class="btn btn-success">Finalizar compra</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Mugs 'n More ♥ </p>
+        </footer>
+
+
+
+
+        <!-- Scripts -->
+        <script src="productos.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
