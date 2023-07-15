@@ -21,7 +21,7 @@ const productos = [
 		marca: "MUG'S",
 		imagen: "./images/coffeeset.webp",
 		precio: 6500,
-		descripcion: "Comienza tu día con estilo. De cerámica duradera y diseño único. ",
+		descripcion: "Comienza tu día con estilo. De cerámica de primera calidad, duradera y diseño único. ",
 	},
 	{
 		id: "4",
@@ -37,7 +37,7 @@ const productos = [
 		marca: "HAPPY LIFE",
 		imagen: "./images/surprise5.webp",
 		precio: 2800,
-		descripcion: "Taza moderna, con diferentes frases, para vos y tus amigos ",
+		descripcion: "Taza moderna, con diferentes frases, para vos y tus amigos. Para regalar o regalarte",
 	},
 	{
 		id: "6",
@@ -45,7 +45,7 @@ const productos = [
 		marca: "HAPPY LIFE",
 		imagen: "./images/fillme6.webp",
 		precio: 2800,
-		descripcion: "¿Sos fan del cafe? tenes tu taza, pero si sos del té, también!",
+		descripcion: "¿Sos fan del café? Tenes tu taza, pero si sos del té, también! Exclusiva online",
 	},
 	{
 		id: "7",
